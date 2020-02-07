@@ -1,5 +1,20 @@
 version: '3.3'
 services:
+
+  grafana:
+    image: grafana/grafana
+    volumes:
+      - grafana_data:/var/lib/grafana
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=secret
+    depends_on:
+      - prometheus
+    ports:
+      - 3000:3000
+    networks:
+      - reddit
+
   cadvisor:
     image: google/cadvisor:latest
     volumes:
@@ -32,6 +47,7 @@ services:
       -  '9090:9090'
     networks:
       - reddit
+
   mongo_db:
     image: mongo:3.2
     volumes:
@@ -48,18 +64,22 @@ services:
       - 9292:9292/tcp
     networks:
       - reddit
+
   post:
     build: ./post-py
     image: ${USERNAME}/post:1.0
     networks:
       - reddit
+
   comment:
     build: ./comment
     image: ${USERNAME}/comment:1.0
     networks:
       - reddit
+
 volumes:
   post_db:
+  grafana_data:
 
 networks:
   reddit:
