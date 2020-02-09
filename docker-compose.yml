@@ -59,7 +59,7 @@ services:
           - comment_db
   ui:
     build: ./ui
-    image: ${USERNAME}/ui:2.0
+    image: ${USERNAME}/ui:3.0
     ports:
       - 9292:9292/tcp
     networks:
@@ -67,13 +67,22 @@ services:
 
   post:
     build: ./post-py
-    image: ${USERNAME}/post:1.0
+    image: ${USERNAME}/post:2.0
     networks:
       - reddit
 
   comment:
     build: ./comment
-    image: ${USERNAME}/comment:1.0
+    image: ${USERNAME}/comment:2.0
+    networks:
+      - reddit
+
+  alertmanager:
+    image: ${USERNAME}/alertmanager
+#    command:
+#      - '-config.file=/etc/alertmanager/config.yml'
+    ports:
+      - 9093:9093
     networks:
       - reddit
 
