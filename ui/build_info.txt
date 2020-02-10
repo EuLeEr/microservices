@@ -1,2 +1,2 @@
-56a2ead
-monitoring-2
+4b08887
+docker-swarm
