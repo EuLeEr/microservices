@@ -5,4 +5,5 @@ for devops-course
 1.Исходники приложения, что мы деплоим, положены в папку reddit на master и папка .git переименована в git. 
 Для использования локально исходников - скопировать в отдельную папку и папку git переименовать .git
 Оригинал  https://github.com/Artemmkin/reddit.git
-2.Добавлен репозиторий 'документации' iac-tutorial. branches not exist
+2.Добавлен репозиторий слайдов курса iac-tutorial.
+3.Добавлен репозиторий лабораторий курса для повторения Infrastructure As Code Tutorial
