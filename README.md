@@ -7,3 +7,4 @@ for devops-course
 Оригинал  https://github.com/Artemmkin/reddit.git
 2.Добавлен репозиторий слайдов курса iac-tutorial.
 3.Добавлен репозиторий лабораторий курса для повторения Infrastructure As Code Tutorial
+
