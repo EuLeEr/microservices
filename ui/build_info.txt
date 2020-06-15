@@ -1,2 +1,2 @@
-4b08887
-docker-swarm
+c0e3428
+kubernetes-2

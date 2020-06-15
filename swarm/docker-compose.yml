@@ -4,9 +4,9 @@ services:
   mongo:
     image: mongo:${MONGO_VERSION}
     deploy:
-      placement:
-        constraints:
-          - node.labels.reliability == high
+#      placement:
+#        constraints:
+#          - node.labels.reliability == high
     volumes:
       - mongo_data:/data/db
     networks:
