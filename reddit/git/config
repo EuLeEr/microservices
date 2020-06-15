@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+[remote "origin"]
+	url = https://github.com/Artemmkin/reddit.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "monolith"]
+	remote = origin
+	merge = refs/heads/monolith
+[branch "logging"]
+	remote = origin
+	merge = refs/heads/logging
+[branch "microservices"]
+	remote = origin
+	merge = refs/heads/microservices

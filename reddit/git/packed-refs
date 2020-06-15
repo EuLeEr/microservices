@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled 
+ed29220876f2e0bc6dce3e32f73207d8fa456be6 refs/remotes/origin/logging
+0b78824ce2e1837daa705f17956776957a6110a8 refs/remotes/origin/microservices
+393cae95fd626dd0775c8d61228af4d55d2e057c refs/remotes/origin/monolith

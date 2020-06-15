@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 393cae95fd626dd0775c8d61228af4d55d2e057c root <egoroblachko@gmail.com> 1580892367 +0300	clone: from https://github.com/Artemmkin/reddit.git
+393cae95fd626dd0775c8d61228af4d55d2e057c ed29220876f2e0bc6dce3e32f73207d8fa456be6 root <egoroblachko@gmail.com> 1580892434 +0300	checkout: moving from monolith to logging
+ed29220876f2e0bc6dce3e32f73207d8fa456be6 393cae95fd626dd0775c8d61228af4d55d2e057c root <egoroblachko@gmail.com> 1580892521 +0300	checkout: moving from logging to monolith
+393cae95fd626dd0775c8d61228af4d55d2e057c ed29220876f2e0bc6dce3e32f73207d8fa456be6 root <egoroblachko@gmail.com> 1580893497 +0300	checkout: moving from monolith to logging
+ed29220876f2e0bc6dce3e32f73207d8fa456be6 d7609787360cb1301d0a76a6eebed484d6003200 root <egoroblachko@gmail.com> 1580894212 +0300	reset: moving to d7609787360cb1301d0a76a6eebed484d6003200
+d7609787360cb1301d0a76a6eebed484d6003200 0b78824ce2e1837daa705f17956776957a6110a8 root <egoroblachko@gmail.com> 1580895861 +0300	checkout: moving from logging to microservices
